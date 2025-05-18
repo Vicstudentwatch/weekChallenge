@@ -3,4 +3,4 @@
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="weekChallenge.pdf">Download PDF</a>.</p>
     </embed>
 </object>
-![alt text](image.png "RECREATE")
+![image](image.png "RECREATE")
