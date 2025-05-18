@@ -11,9 +11,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body{
-  background-color: (--body);
+  background-color: var(--body);
 }
 header{
   width: 100%;
@@ -46,7 +47,6 @@ nav > ul{
   justify-content: center;
   flex-direction: column;
   gap: 20px;
-  /* padding: 300px 520px; */
   height: 80vh;
   width: 90%;
   border-radius: 50px;
@@ -56,7 +56,7 @@ nav > ul{
 .H-card > h1{
   font-size: 70px;
 }
-.H-card > button ,.works .left button{
+.H-card > button ,.works .left button,footer button{
   font-weight: bold;
   font-size: 20px;
   padding: 15px 20px;
@@ -88,7 +88,52 @@ nav > ul{
 }
 .works .left h2{
   font-size: 50px;
+  
 }
+footer{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+footer .left,footer .right{
+  width: 40%;
+  height: 75%;
+  padding: 60px;
+  border-radius: 40px;
+}
+footer .left{
+  background-color: var(--white);
+}
+.list{
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  padding: 25px 0;
+}
+footer .left ul li{
+  list-style: none;
+  font-size: 20px;
+  padding: 8px;
+}
+footer .right{
+  background-color: var(--element4);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .right h2{
+  font-size: 50px;
+}
+footer button{
+  background-color: var(--white);
+  color: var(--element4);
+}
+footer img{
+ position: absolute;
+ right: 150px;
 
-
+}
 
